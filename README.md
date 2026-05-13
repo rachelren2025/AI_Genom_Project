@@ -35,7 +35,31 @@ All processed data files, raw datasets, and the main Colab notebook are availabl
 > [Google Drive — Project Files](https://drive.google.com/drive/folders/1kflIxZAajW06gYEMGXk6DlpTZWit4n4U?usp=sharing)
 
 > *Note: You must be signed in with an **NYU account** to access this folder.*
-
+```
+Project/
+└── Code/
+    ├── AiG_Project.ipynb
+    │
+    ├── LINCS/
+    │   ├── load_data.py
+    │   ├── preprocess.py
+    │   ├── get_lincs_smiles.py
+    │   ├── GSE70138_Broad_LINCS_Level5_COMPZ_n118050x12328_2017-03-06.gctx
+    │   ├── GSE70138_Broad_LINCS_gene_info_2017-03-06.txt
+    │   ├── GSE70138_Broad_LINCS_sig_info_2017-03-06.txt
+    │   ├── lincs_landmark_with_compounds.csv
+    │   ├── lincs_clean.csv
+    │   └── lincs_with_smiles.csv
+    │
+    ├── TCM/
+    │   ├── get_tcm_smiles.py
+    │   ├── tcmid-traditional-chinese-medicine-integrated-database-03-2026.sdf
+    │   └── tcm_smiles.csv
+    │
+    └── Disease Signature (MSigDB)/
+        ├── c2.all.v2026.1.Hs.entrez.gmt          <- used in notebook
+        └── c2.all.v2026.1.Hs.symbols.gmt         <- not used
+```
 ---
 
 ## Data
