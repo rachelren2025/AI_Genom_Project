@@ -36,8 +36,7 @@ All processed data files, raw datasets, and the main Colab notebook are availabl
 
 > *Note: You must be signed in with an **NYU account** to access this folder.*
 ```
-Project/
-└── Code/
+Code/
     ├── AiG_Project.ipynb
     │
     ├── LINCS/
