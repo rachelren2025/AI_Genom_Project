@@ -15,13 +15,15 @@ This project trains a neural network to predict how a chemical compound affects 
 
 ```
 /
+├── AiG_Project.ipynb            # Main project notebook
+│
 ├── lincs/
-│   ├── load_data.py            # Step 1: Load and filter LINCS data
-│   ├── preprocess.py           # Step 2: Remove DMSO, sample 20,000 profiles
-│   └── get_lincs_smiles.py     # Step 3: Fetch SMILES from PubChem
+│   ├── load_data.py             # Step 1: Load and filter LINCS data
+│   ├── preprocess.py            # Step 2: Remove DMSO, sample 20,000 profiles
+│   └── get_lincs_smiles.py      # Step 3: Fetch SMILES from PubChem
 │
 ├── tcm/
-│   └── get_tcm_smiles.py       # Parse TCMID SDF file, extract SMILES
+│   └── get_tcm_smiles.py        # Parse TCMID SDF file, extract SMILES
 │
 └── README.md
 ```
